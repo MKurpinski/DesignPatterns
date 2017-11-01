@@ -35,6 +35,7 @@ namespace DesignPatterns.SimpleFactory.Tests
             var factory = new AnimalFactory();
 
             Animal result = factory.GetTheBiggestAnimal(PlaceOfOccurence.Air);
+            Console.WriteLine(result.Type);
 
             Assert.IsNotNull(result as Pelican);
         }

@@ -5,13 +5,13 @@ using DesignPatterns.Facade.FakeThirdPartyLibraries;
 
 namespace DesignPatterns.Facade
 {
-    public class WeatherForecast: IWeatherForecast
+    public class WeatherForecastFacade: IWeatherForecast
     {
         private readonly IWeatherForecastWithGoodHumidity _forecastWithGoodHumidity;
         private readonly IWeatherForecastWithGoodTemperature _forecastWithGoodTemperature;
         private readonly IWeatherForecastWithProperPowerOfWind _forecastWithProperPowerOfWind;
 
-        public WeatherForecast(IWeatherForecastWithGoodHumidity forecastWithGoodHumidity,
+        public WeatherForecastFacade(IWeatherForecastWithGoodHumidity forecastWithGoodHumidity,
                                IWeatherForecastWithGoodTemperature forecastWithGoodTemperature,
                                IWeatherForecastWithProperPowerOfWind forecastWithProperPowerOfWind)
         {
