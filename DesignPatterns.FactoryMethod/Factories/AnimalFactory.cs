@@ -23,7 +23,7 @@ namespace DesignPatterns.SimpleFactory.Factories
                     }
                 default:
                     {
-                        throw new NotSupportedException();
+                        throw new InvalidOperationException();
                     }
             }
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DesignPatters.FactoryMethod.Factory;
+using DesignPatters.FactoryMethod.FoodFactoryResolver;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -34,6 +35,7 @@ namespace DesignPatters.FactoryMethod
             {
                 services.AddScoped<IFoodFactory, HealthyFoodFactory>();
             }
+            services.AddScoped<IFoodFactoryResolver, FoodFactoryResolver.FoodFactoryResolver>();
             services.AddMvc();
         }
 
