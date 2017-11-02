@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Facade", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{943BE7CD-3B6B-4B94-9AE9-79A48D6A728C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatters.FactoryMethod", "DesignPatters.FactoryMethod\DesignPatters.FactoryMethod.csproj", "{7F239B6D-BA3D-4A54-A873-21A685E7A005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatters.FactoryMethod", "DesignPatters.FactoryMethod\DesignPatters.FactoryMethod.csproj", "{7F239B6D-BA3D-4A54-A873-21A685E7A005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AutoResolveFactory", "DesignPatterns.AutoResolveFactory\DesignPatterns.AutoResolveFactory.csproj", "{4BFFAA22-46EB-42D4-AB9F-A02BD8272871}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7F239B6D-BA3D-4A54-A873-21A685E7A005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F239B6D-BA3D-4A54-A873-21A685E7A005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F239B6D-BA3D-4A54-A873-21A685E7A005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFFAA22-46EB-42D4-AB9F-A02BD8272871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFFAA22-46EB-42D4-AB9F-A02BD8272871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFFAA22-46EB-42D4-AB9F-A02BD8272871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFFAA22-46EB-42D4-AB9F-A02BD8272871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
